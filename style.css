@@ -24,7 +24,7 @@ body, ul, li, p{
     /* Define as características do header */
     .header {
     /* Cor de fundo */
-    background-color: blanchedalmond;
+    background-color: cadetblue;
     /* display flexível */
     display: flex;
     /* Organizado em linha */
@@ -37,6 +37,12 @@ body, ul, li, p{
     /* "margem interna" */
 padding: 20px;}
 
+.imagem{
+width: 500px;
+height: auto;
+}
+
+
 .menu{
 display: flex;
 }
@@ -46,6 +52,7 @@ margin-left: 10px;}
 .menu li a{
 display: block;
 padding: 10px;
-background-color: #5e17eb;
 }
+
+
 
