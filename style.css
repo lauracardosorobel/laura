@@ -37,22 +37,80 @@ body, ul, li, p{
     /* "margem interna" */
 padding: 20px;}
 
-.imagem{
-width: 500px;
-height: auto;
-}
 
 
 .menu{
-display: flex;
+    display: flex;
 }
 /* distância entre as palavras do link */
 .menu li{
-margin-left: 10px;}
+    margin-left: 10px;}
+
 .menu li a{
-display: block;
-padding: 10px;
+    display: block;
+    padding: 10px;
+    /* background-color: #5e17eb; */
 }
 
+
+/* CORPO DO SITE */
+.flex{ 
+    min-height: 100hv;
+    background-color: rgb (241, 234, 234);
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap; 
+}
+/* tamanho da imagem */
+.imagem{
+    widht: 400px; 
+    height: auto; 
+    border-radius: 10px
+    box-shadow: 5px 5px 10px rbga (0, 0, 0, 0, 767)
+}
+.legenda{
+    text-align: center/;
+    padding: 5px
+}
+
+/* ajustando texto */
+.texto{ 
+    widht: 100hv;
+    padding: 10px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+
+/* mudando a fonte */
 .paragrafo{
-    
+    font-family: 'Lucida Sans', sans-serif;
+    font-family: 'Lucida Sans' ; sans-serif;
+    color: #000;
+}
+
+.items{
+    display: block;
+    margin: 10px;
+}
+
+/* cabeçalho */ 
+.footer{
+    background-color: rgb(241, 234, 234)
+    padding: 15px;
+    color: black; 
+    font-size: 30px; 
+}
+
+.redessociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.redelogo{
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
+}
